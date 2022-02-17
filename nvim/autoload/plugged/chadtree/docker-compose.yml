@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+  chadtree:
+    restart: always
+    build: .
+    environment:
+      - TZ
+

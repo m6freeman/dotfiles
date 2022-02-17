@@ -1,0 +1,14 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark Medium",
+    "workbench.sideBar.location": "right",
+    "python.showStartPage": false,
+    // "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "git.enableSmartCommit": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.vim"
+}

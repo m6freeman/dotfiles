@@ -1,0 +1,29 @@
+snippet ifmain "ifmain" b
+def $1():
+    pass
+
+
+if __name__ == '__main__':
+    ${1:main}()
+endsnippet
+
+snippet with "with" b
+with ${1:expr}`!p snip.rv = " as " if t[2] else ""`${2:var}:
+	${3:${VISUAL:pass}}
+$0
+endsnippet
+
+
+snippet for "for loop" b
+for ${1:item} in ${2:iterable}:
+	${3:${VISUAL:pass}}
+endsnippet
+
+
+snippet try "try catch" b
+try:
+    ${1:${VISUAL:pass}}
+
+except (${2:TypeError}):
+    ${3:print("${2:TypeError} occured.")}
+endsnippet

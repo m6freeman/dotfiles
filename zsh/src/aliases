@@ -1,0 +1,25 @@
+#!/bin/sh
+
+alias ..='cd ..'
+alias cp='cp -iv'
+alias df='df -h'                                                # Human-readable sizes
+alias dn='dotnet'
+alias free='free -m'                                            # Show sizes in MB
+alias get-clipboard='xclip -selection c -o'
+alias gitl='git log --all --graph --oneline --decorate'
+alias gitu='git add . && git commit && git push -u origin'
+alias gruvbox='cd ~/dotfiles && git checkout gruvbox && i3restart && nitrogen --restore'
+alias i3restart='i3-msg restart'
+alias grep='grep --color=auto'
+alias ls='exa --long --group-directories-first --header --git'
+alias ls.='exa -al --color=always --group-directories-first --header --git'
+alias lynx='lynx -vikeys -lss=~/dotfiles/lynx/gruvbox.lss https://wiki.archlinux.org'
+alias mkdir='mkdir -pv'
+alias mv='mv -iv'
+alias nord='cd ~/dotfiles && git checkout main && i3restart && nitrogen --restore'
+alias rm='rm -Iv --preserve-root'
+alias set-clipboard='xclip -selection c'
+alias tutanota='/opt/tutanota/tutanota-desktop-linux.AppImage'
+alias update='sudo pacman -Syyu'
+alias ytdl='youtube-dl --extract-audio --audio-format mp3'
+alias zource='source ~/.config/zsh/.zshrc'

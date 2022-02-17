@@ -1,0 +1,9 @@
+configuration {
+    modi: "run";
+    width: 40;
+    lines: 15;
+    show-icons: false;
+    combi-mode: "drun, run";
+}
+
+@theme "~/.config/rofi/gruvbox-dark-soft.rasi"
